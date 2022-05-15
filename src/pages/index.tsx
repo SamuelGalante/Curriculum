@@ -44,7 +44,7 @@ export default function Home() {
           {'<p>'}
         </div>
         <div style={{maxWidth: 1000}}>
-          <p> A minha missão como desenvolvedor é resolver o máximo de problemas com a {`"mágia"`} da programação da melhor forma possível ! </p>
+          <p> A minha missão como desenvolvedor é resolver o máximo de problemas com a {`"magia"`} da programação da melhor forma possível ! </p>
         </div>
         <div style={{ color: '#9F7AEA'}}>
           {'</p>'}
