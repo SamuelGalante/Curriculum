@@ -161,7 +161,7 @@ export default function Home() {
       </SimpleGrid>
 
       <Center  mt='12' mb='2'>
-        <Link href='https://chakra-ui.com' isExternal>Para acessar esse repositório e usar como template, clique aqui 🤗</Link>
+        <Link href='https://github.com/SamuelGalante/Curriculum' isExternal>Para acessar esse repositório e usar como template, clique aqui 🤗</Link>
       </Center>
       <Center mb='12'>
       <Button leftIcon={<FaLinkedin size={24}/>}  variant='link' onClick={() => window.open('https://www.linkedin.com/in/samuel-galante-474b2415b/', "_blank")}></Button>
