@@ -14,7 +14,8 @@ export default function Home() {
   return (
     <>
     <Center maxH={400} mt={2} maxW={500} p="2" justifyContent={"flex-start"}>
-      <Button leftIcon={<SiSpotify color="#1db954" size={24}/>} variant='outline' colorScheme="whiteAlpha">
+      <Button onClick={() => window.open('https://open.spotify.com/playlist/0p07oxSqrnPxegrztiYVJ8?si=aac635ed6f354e4e', "_blank")} 
+       leftIcon={<SiSpotify color="#1db954" size={24}/>} variant='outline' colorScheme="whiteAlpha">
       <Box fontSize={"sm"} ml={2}>Playlist para ajudar a fazer um currículo criativo </Box>
       </Button>
     </Center>
@@ -30,8 +31,8 @@ export default function Home() {
         <Typed
           strings={[
               "Desenvolvedor ⚛️",
-              "Empreendedor🚀",
-              "Batman 🦇",
+              "Empreendedor 🚀",
+              "Batman 🦇",
             ]}
             typeSpeed={40}
             backSpeed={80}
