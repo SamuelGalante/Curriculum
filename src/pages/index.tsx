@@ -166,6 +166,7 @@ export default function Home() {
       </Center>
       <Center mb='12'>
       <Button leftIcon={<FaLinkedin size={24}/>}  variant='link' onClick={() => window.open('https://www.linkedin.com/in/samuel-galante-474b2415b/', "_blank")}></Button>
+      (31) 9 9359-9576
       </Center>
     </>
   )
