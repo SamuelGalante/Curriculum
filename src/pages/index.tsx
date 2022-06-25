@@ -16,12 +16,12 @@ export default function Home() {
     <Center maxH={400} mt={2} maxW={500} p="2" justifyContent={"flex-start"}>
       <Button onClick={() => window.open('https://open.spotify.com/playlist/0p07oxSqrnPxegrztiYVJ8?si=aac635ed6f354e4e', "_blank")} 
        leftIcon={<SiSpotify color="#1db954" size={24}/>} variant='outline' colorScheme="whiteAlpha">
-      <Box fontSize={"sm"} ml={2}>Playlist para ajudar a fazer um currículo criativo </Box>
+      <Box fontSize={"sm"} ml={2}>Playlist to help you make a creative resume </Box>
       </Button>
     </Center>
     <VStack spacing={4} align='stretch' mt={6}>
       <Center fontSize="3xl">
-        <h1>Quem sou eu ?</h1>
+        <h1>Who am I ?</h1>
       </Center>
       <Center color={'purple.400'} fontSize="5xl">
         <h1>Samuel Galante</h1>
@@ -30,8 +30,8 @@ export default function Home() {
         {'<>'}
         <Typed
           strings={[
-              "Desenvolvedor ⚛️",
-              "Empreendedor 🚀",
+              "Developer ⚛️",
+              "Entrepreneur 🚀",
               "Batman 🦇",
             ]}
             typeSpeed={40}
@@ -44,7 +44,7 @@ export default function Home() {
           {'<p>'}
         </div>
         <div style={{maxWidth: 1000}}>
-          <p> A minha missão como desenvolvedor é resolver o máximo de problemas com a {`"magia"`} da programação da melhor forma possível ! </p>
+          <p>My mission as a developer is to solve as many problems with the {`"magic"`} of programming as possible!</p>
         </div>
         <div style={{ color: '#9F7AEA'}}>
           {'</p>'}
@@ -52,7 +52,7 @@ export default function Home() {
       </Center>
       </VStack>
       <Center color={'green.300'} fontSize="3xl" mt='12'>
-        <h1>Minhas techs</h1>
+        <h1>My techs</h1>
       </Center>
 
       <Center>
@@ -96,34 +96,34 @@ export default function Home() {
       </Center>
 
       <Center color={'green.300'} fontSize="3xl" mt='12'>
-        <h1>Experiências</h1>
+        <h1>Experiences</h1>
       </Center>
 
       <TimeLine />
 
       <Center color={'purple.400'} fontSize="3xl" mt='12'>
-        <h1 style={{marginRight: 4}}>Educação </h1>
+        <h1 style={{marginRight: 4}}>Education </h1>
         <MdOutlineSchool />
       </Center>
       
       <SimpleGrid columns={2} spacing={10} p={8}>
         <Box border={"1px"} borderColor="purple.600" minH='100px' p={4}>
-          <h2>PUC MINAS - Engenharia de Software</h2>
+          <h2>PUC MINAS - Software Engineering</h2>
           <Text color='gray.500'>
-            Início em Janeiro de 2018
+            Start in January 2018
           </Text>
         </Box>
         <Box border={"1px"} borderColor="purple.600" minH='100px' p={4}>
-          <h2>ESCOLA DE FORMAÇÃO GERENCIAL - Ensino médio técnico em Administração</h2>
+          <h2>ESCOLA DE FORMAÇÃO GERENCIAL - Technical high school in Administration</h2>
           <Text color='gray.500'>
-            Janeiro de 2015 - Dezembro de 2017
+            January 2015 - December 2017
           </Text>
         </Box>
       </SimpleGrid>
 
 
       <Center color={'green.300'} fontSize="3xl" mt='12'>
-        <h1 style={{marginRight: 4}}>Educação complementar</h1>
+        <h1 style={{marginRight: 4}}>More Education</h1>
         <MdOutlineEmojiEvents />
       </Center>
 
@@ -132,41 +132,42 @@ export default function Home() {
           <h2>ROCKETSEAT - Bootcamp React, React Native, NodeJs</h2>
         </Box>
         <Box border={"1px"} borderColor="green.300" minH='100px' p={4}>
-          <h2>ACHIEVE - Escola de Idiomas</h2>
+          <h2>ACHIEVE - Language school</h2>
           <Text color='gray.500'>
-          Inglês intermediário/avançado (leitura, escrita)
+          Intermediate/Advanced English (reading, writing and speaking)
           </Text>
         </Box>
         <Box border={"1px"} borderColor="green.300" minH='100px' p={4}>
-          <h2>RAJA VENTURES - Programa de pré-aceleração</h2>
+          <h2>RAJA VENTURES - Pre-acceleration program</h2>
           <Text color='gray.500'>
-          Após criar a Cuide-se, participamos dessa pré-aceleração para dar tração ao nosso negócio
+          After creating Cuide-se, we participated in this pre-acceleration to give traction to our business
           </Text>
         </Box>
         <Box border={"1px"} borderColor="green.300" minH='100px' p={4}>
-          <h2>ORGANIZADOR DE EVENTOS - Startup Weekend - 2017</h2>
+          <h2>EVENT ORGANIZER - Startup Weekend - 2017</h2>
           <Text color='gray.500'>
-            Após participar do evento como competidor, resolvi realizar o
-            evento na minha cidade natal (Teófilo Otoni) para levar a
-            experiência inovadora que tive.
+          After participating in the event as a competitor, I decided to do the
+            event in my hometown (Teófilo Otoni/Brazil) to bring
+            groundbreaking experience I had.
           </Text>
         </Box>
         <Box border={"1px"} borderColor="green.300" minH='100px' p={4}>
-          <h2>STARTUP WEEKEND - Participação em 2016 e 2017</h2>
+          <h2>STARTUP WEEKEND - Participation in 2016 and 2017</h2>
           <Text color='gray.500'>
-          Startup Weekend é um evento de empreendedorismo prático
-          onde são fomentados ideias de inovação durante um final de
-          semana.
+          Startup Weekend is a hands-on entrepreneurship event
+          where innovation ideas are fostered during an end-of-year
+          week.
           </Text>
         </Box>
       </SimpleGrid>
 
       <Center  mt='12' mb='2'>
-        <Link href='https://github.com/SamuelGalante/Curriculum' isExternal>Para acessar esse repositório e usar como template, clique aqui 🤗</Link>
+        <Link href='https://github.com/SamuelGalante/Curriculum' isExternal>To access this repository and use it as a template, click here 🤗</Link>
       </Center>
       <Center mb='12'>
       <Button leftIcon={<FaLinkedin size={24}/>}  variant='link' onClick={() => window.open('https://www.linkedin.com/in/samuel-galante-474b2415b/', "_blank")}></Button>
-      (31) 9 9359-9576
+      +55 (31) 9 9359-9576 🇧🇷
+      <span style={{marginLeft: 15}}>+1 437-240-3949 🇨🇦</span>
       </Center>
     </>
   )
